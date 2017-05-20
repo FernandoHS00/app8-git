@@ -1,14 +1,14 @@
 // JavaScript Document
 
-$(document).ready(function(e){
+$(document).ready(function(e) {
 	document.addEventListener("deviceready",function(){
 		
 		$('#izquierda').on("swipeleft",function(){
-			navigator.notification.alert("Deslizo a la izquierda", function(){"Aplicacion7", "Aceptar"});
+			navigator.notification.alert("Deslizo a la izquierda",function(){"Aplicacion7", "Aceptar"});		
 });
 
 $('#derecha').on("swiperight",function(){
-	navigator.notifiction.confirm("¿Que quieres hacer?",function(opt){
+	navigator.notification.confirm("¿Que quieres hacer?",function(opt){
 		switch(opt)
 		{
 			case 1:
