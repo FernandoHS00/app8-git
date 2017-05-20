@@ -2,13 +2,13 @@
 
   <widget xmlns="http://www.w.org/ns/widgets"
     xmlns:gap="http://phonegp.com/ns/1.0"
-	id="com.phonegap.example6"
+	id="com.phonegap.example8"
 	version="1.0.0">
 	
-	<name> app6 Batalla de Puebla </name>
+	<name> app8 Abrir Apps </name>
 	
 	<description>
-	Aplicacion de informacion sobre la batalla del 5 de Mayo.
+	Aplicacion que abre las aplicaciones realizadas anteriormente.
 	</description>
 	
 	<author href="https://build.phonegap.com" email="hernandezsanchezfernando3h@gmail.com">
